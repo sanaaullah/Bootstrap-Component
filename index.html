@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bootstrap Component</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Alert</h3>
+      <h4 class="d-inline-block p-2 bg-warning">A simple alert</h4>
+      <div class="alert alert-success" role="alert">
+        A simple Primary alert-check it out!
+      </div>
+      <h4 class="d-inline-block p-2 bg-warning">An alert with a link</h4>
+      <div class="alert alert-dark">
+        For details visit <a href="#" class="alert-link">Bootsrtap</a>.check it out!
+      </div>
+      <h4 class="d-inline-block p-2 bg-warning">Alert with additional content</h4>
+      <div class="alert alert-primary">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ad possimus blanditiis quas, maiores. Alias quas, doloremque. Doloremque quidem at qui non tempora asperiores pariatur perspiciatis, alias, ea, mollitia obcaecati.</p>
+        <hr>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, repellendus.</p>
+      </div>
+      <h4 class="d-inline-block p-2 bg-warning">Dismissing</h4> 
+      <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+        <strong>Facebook</strong> is the most popular social media platform.
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Alert</h3>
+    <div class="container text-center">
+      <div class="my-4">
+        <h1>Example heading <span class="badge badge-primary">New</span></h1>
+        <h2>Example heading <span class="badge badge-primary">New</span></h2>
+        <h3>Example heading <span class="badge badge-primary">New</span></h3>
+        <h4>Example heading <span class="badge badge-primary">New</span></h4>
+        <h5>Example heading <span class="badge badge-primary">New</span></h5>
+      </div>
+      <div class="my-4">
+        <h4 class="d-inline-block p-2 bg-warning">Badge with button & link</h4>
+        <button type="button" class="btn btn-primary">
+          Notification <span class="badge badge-light">4</span>
+          <span class="sr-only">unread notification</span>
+        </button>
+        <a href="#" class="p-2 badge badge-secondary">Secondary</a>
+        <a href="#" class="p-2 badge badge-danger">danger</a>
+        <div class="w-100 my-3"></div>
+        <h4 class="d-inline-block p-2 bg-warning">Pill Badges</h4><br>
+        <div class="badge badge-pill badge-dark p-2">badge-pill</div>
+      </div>
+    </div>
+    <!-- Breadcrumb -->
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Breadcrumb</h3>
+    <div class="container text-center">
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+    </div>
+      <div>To check the Breadcrumb Please click here: <a href="bootstrap-utilities.html">Bootstrap utilities</a> and <a href="grid-layout.html">Bootstrap Layout</a></div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Button</h3>
+      <div class="container text-center">
+        <button type="button" class="btn btn-primary">Primary</button>
+      </div>
+    <h4 class="d-inline-block p-2 my-3 bg-warning">Button tags</h4>
+    <div class="container text-center">
+      <a href="#" role="button" class="btn btn-primary">Link</a>
+      <button type="button" class="btn btn-secondary">Button</button>
+      <input type="button" class="btn btn-success" value="Input">
+      <input type="submit" class="btn btn-danger" value="Submit">
+      <input type="reset" class="btn btn-info" value="Reset">
+    </div>
+    <h4 class="d-inline-block p-2 my-3 bg-warning">Button outline</h4>
+    <div class="container text-center">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+    </div>
+    <h4 class="d-inline-block p-2 my-3 bg-warning">Button size</h4>
+    <div class="container text-center">
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+      <button type="button" class="btn btn-success btn-block">Block button</button>
+    </div>
+    <h4 class="d-inline-block p-2 my-3 bg-warning">Active state</h4>
+    <div class="container text-center">
+      <a href="#" class="btn btn-primary active" role="button" aria-pressed="true">Primary</a>
+    </div>
+    <h4 class="d-inline-block p-2 my-3 bg-warning">Disable state</h4>
+    <div class="container text-center">
+      <button type="button" class="btn btn-secondary btn-lg" disabled>Secondary</button>
+      <a href="#" class="btn btn-primary disabled" role="button" tabindex="-1" aria-disabled="true">Primary</a>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Button Plugin</h3>
+    <h4 class="d-inline-block p-2 bg-warning">Toggle State</h4>
+    <div class="container text-center">
+      <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Single toggle</button>
+    </div>
+    <h4 class="d-inline-block p-2 bg-warning">Checkbox and radio button</h4>
+    <div class="container text-center">
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked>Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2">Radio
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3">Radio
+        </label>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Button Group</h3>
+    <h4 class="d-inline-block p-2 bg-warning">Basic Example</h4>
+    <div class="container text-center">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Right</button>
+      </div>
+    </div>
+    <h4 class="d-inline-block p-2 bg-warning">Button Toolbar</h4>
+    <div class="container text-center">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="Fist group">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-secondary">5</button>
+          <button type="button" class="btn btn-secondary">6</button>
+          <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-secondary">8</button>
+        </div>
+      </div>
+      <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4>
+        <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button group">
+          <div class="btn-group mr-2 btn-group-sm" role="group" aria-label="first-group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+          </div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text" id="btnGroupAddon">@</div>
+            </div>
+            <input type="text" class="form-control" placeholder="input group example" aria-label="input" aria-describedby="btnGroupAddon">
+          </div>
+        </div>
+        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button group">
+          <div class="btn-group  btn-group-lg" role=group>
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+          </div>
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <div class="input-group-text" id="btnGroupAddon2">@</div>
+            </div>
+            <input type="text" class="form-control" placeholder="input group example" aria-label="input" aria-describedby="btnGroupAddon2">
+          </div>
+        </div>
+        <h4 class="d-inline-block my-3 p-2 bg-warning">Nesting</h4><br>
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">One</button>
+        <button type="button" class="btn btn-secondary">Two</button>
+        <div class="btn-group" role=group>
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a href="#" class="dropdown-item">Dropdown-link-1</a>
+            <a href="#" class="dropdown-item">Dropdown-link-2</a>
+          </div>
+        </div>
+      </div><hr>
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Vertical variation</h4><br>
+      <div class="btn-group btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">One</button>
+        <button type="button" class="btn btn-secondary">Two</button>
+        <div class="btn-group" role=group>
+          <button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+            <a href="#" class="dropdown-item">Dropdown-link-1</a>
+            <a href="#" class="dropdown-item">Dropdown-link-2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Card</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A Simple card</h4>
+    <div class="container">
+      <div class="card mx-auto" style="width:18rem">
+      <img src="images/card-img.jpg" alt="card image" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nisi rerum, pariatur ratione distinctio, recusandae dolores reprehenderit, aliquam officiis quidem modi. Nesciunt hic autem quidem possimus quos, sint maiores illum.</p>
+        <a href="#" class="btn btn-primary">Go somehere</a>
+      </div>
+    </div>
+  </div>
+  <h4 class="d-inline-block my-3 p-2 bg-warning">List Group</h4>
+    <div class="container">
+      <div class="card mx-auto" style="width: 18rem">
+        <div class="card-header">List Group</div>
+        <ul class="list-group list-group-flash">
+          <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+          <li class="list-group-item">Lorem ipsum dolor.</li>
+          <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+          <li class="list-group-item">Lorem ipsum dolor sit.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Kitchen Sink</h4>
+      <div class="card" style="width: 18rem">
+          <img src="images/card-img.jpg" alt="iamge" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, cumque perferendis rerum vero at. Similique?</p>
+          </div>
+            <ul class="list-group list-group-flash">
+              <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+              <li class="list-group-item">Lorem ipsum dolor.</li>
+              <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur.</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card Link</a>
+              <a href="#" class="card-link">Another Link</a>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Navigation</h4>
+      <div class="card text-center">
+          <div class="card-header">
+            <nav class="nav nav-pills card-header-pills">
+            <a href="#link" class="nav-item nav-link active">Link-1</a>
+            <a href="#link" class="nav-item nav-link">Link-2</a>
+            <a href="#link" class="nav-item nav-link disabled" tabindex="-1" aria-disabled="true">Link-3</a>
+          </nav>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel non, eum, minima commodi aliquid quaerat doloremque, voluptas iure maxime, adipisci vero perspiciatis eos saepe! Maiores repellat, illum vel at a architecto delectus mollitia aperiam nostrum!</p>
+            <button type="button" class="btn btn-primary">Go Somewhere</button>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Image caps</h4>
+      <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p>
+          </div>
+          <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+      </div><br><br>
+      <div class="card">
+        <img src="images/card-img.jpg" alt="image" class="card-img-top" height="200">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Image Overlays</h4>
+      <div class="card text-white w-25">
+        <img src="images/card-img.jpg" class="card-img" alt="immage">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p>
+          </div>
+          <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+      </div>
+      <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Horizontal card</h4>
+      <div class="card">
+          <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <h4 class="d-inline-block my-3 p-2 bg-warning">Card Group</h4>
+      <div class="card-group">
+        <div class="card">
+            <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quia.</p>   
+            </div>
+            <div class="card-footer"><p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p></div>
+        </div>
+        <div class="card">
+            <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam.</p>
+            </div>
+            <div class="card-footer"><p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p></div>
+        </div>
+        <div class="card">
+            <img src="images/card-img.jpg" alt="image" class="card-img-bottom" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in dolores, nisi unde ipsam iusto tempora voluptatum obcaecati distinctio? Quaerat rem quae aspernatur assumenda quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas possimus error aliquid amet doloremque magnam, odio nesciunt ad natus.</p>
+            </div>
+            <div class="card-footer"><p class="card-text"><small class="text-muted">Last updated 3 min ago!</small></p></div>
+      </div>
+    </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Carousel</h3>
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/sliding-image-1.jpg" alt="slider" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-2.jpg" alt="slider" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-3.jpg" alt="slider" class="d-block w-100">
+          </div>
+        </div>
+      </div>
+      </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Carousel with Controls</h4>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/sliding-image-1.jpg" alt="slider" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-2.jpg" alt="slider" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-3.jpg" alt="slider" class="d-block w-100">
+          </div>
+          <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Carousel with indicators</h4>
+    <div class="container">
+      <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/sliding-image-1.jpg" alt="image" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-2.jpg" alt="image" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-3.jpg" alt="image" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliding-image-4.jpg" alt="image" class="d-block w-100">
+          </div>
+        </div>
+        <a href="#carouselIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a href="#carouselIndicators" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Carousel with caption</h4>
+    <div class="container">
+      <div id="carouselWithCaption" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselWithCaption" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselWithCaption" data-slide-to="1"></li>
+          <li data-target="#carouselWithCaption" data-slide-to="2"></li>
+          <li data-target="#carouselWithCaption" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="5000">
+            <img src="images/sliding-image-1.jpg" alt="khalliballi" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block text-white">
+              <h4>First slide label</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, placeat.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="images/sliding-image-2.jpg" alt="khalliballi" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Second slide label</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis explicabo quidem ea eaque.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="images/sliding-image-3.jpg" alt="khalliballi" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Third slide label</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="5000">
+            <img src="images/sliding-image-4.jpg" alt="khalliballi" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Fourth slide label</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nihil, similique.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#carouselWithCaption" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#carouselWithCaption" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Collapse</h3>
+    <div class="container">
+      <p>
+        <a href="#collapseExample" class="btn btn-primary" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Link with href</a>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Button with data-target</button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatibus cumque, nisi, recusandae possimus dolores.
+        </div>
+      </div>
+    </div>
+
+
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Multiple targets</h4>
+    <div class="container">
+      <p>
+        <a href="#firstElement" class="btn btn-primary" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="firstElement">Toggle first element</a>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#secondElement" aria-expanded="false" aria-controls="secondElement">Toggle second element</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#firstElement, #secondElement" aria-expanded="false" aria-controls="firstElement,
+          secondElement"> Toggle both element</button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse" id="firstElement">
+            <div class="card card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cumque ipsam doloribus dicta, velit quidem perspiciatis quos distinctio temporibus culpa deserunt, aspernatur ratione expedita ullam!</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse" id="secondElement">
+            <div class="card card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint illo odio ea perspiciatis facere aliquid, ut amet minima nobis! Reiciendis, soluta earum quasi ipsum voluptatum, fugit ut iure veniam, voluptatibus minima dolore quia rerum. Cupiditate.</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Accordion example -->
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Accordion collapse</h4>
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h4 class="mb-0">
+              <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Collapsible group item #1</button>
+            </h4>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, soluta nam, nesciunt sequi quisquam voluptates distinctio aperiam doloribus nisi vitae provident, at, iste quibusdam veniam?</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h4 class="mb-0">
+              <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collapsible group item #2</button>
+            </h4>
+          </div>
+          <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit alias ipsa fuga repudiandae pariatur nam numquam neque atque. Fugiat cupiditate et architecto dolorum aliquam ipsa tempora sunt temporibus nam, sed repellat, quaerat maxime laboriosam nobis!</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h4 class="mb-0">
+              <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls=collapseThree>Collapsible group item #3</button>
+            </h4>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ratione repellat ea, fugit officia commodi facere velit voluptate placeat illo.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dropdown -->
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Dropdown</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">single Button</h4>
+    <div class="container">
+      <div class="dropdown">
+          <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Button</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a href="#" class="dropdown-item">Action</a>
+          <a href="#" class="dropdown-item">Another Action</a>
+          <a href="#" class="dropdown-item">Something else here</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownSingleMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Button</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownSingleMenu">
+          <a href="#" class="dropdown-item">Dropdown Button Primary</a>
+          <a href="#" class="dropdown-item">Dropdown Button Primary2</a>
+          <a href="#" class="dropdown-item">Dropdown Button Primary3</a>
+          <hr>
+          <a href="#" class="dropdown-item">Dropdown Button Primary4</a>
+        </div>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Split Button</h4>
+    <div class="container">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">item one</a>
+          <a href="#" class="dropdown-item">item two</a>
+          <a href="#" class="dropdown-item">item three</a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">item four</a>
+        </div>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Drop left and split left</h4>
+    <div class="container">
+      <div class="btn-group" style="margin-left: 150px;">
+      <div class="btn-group dropleft" role="group">
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle split</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Item one</a>
+          <a href="#" class="dropdown-item">Item two</a>
+          <a href="#" class="dropdown-item active">Item three</a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">Item four</a>
+          <a href="#" class="dropdown-item">Item five</a>
+        </div>
+      </div>
+      <button type="button" class="btn btn-secondary">Button</button>
+    </div>
+  </div>
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Right-aligned menu
+  </button>
+  <div class="dropdown-menu dropdown-menu-right">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4>
+    <div class="container">
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign up</button>
+        <div class="dropdown-menu">
+          <form class="px-4 py-3">
+            <div class="form-group">
+              <label for="emailAddress">Email Address</label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="formPassword">Password</label>
+              <input type="password" class="form-control" id="formPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label for="dropdownCheck" class="form-check-label">Remember me</label>
+              </div>
+              </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">New arround here? Sign up</a>
+          <a href="#" class="dropdown-item">Forgot password?</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex">
+  <div class="dropdown mr-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="200,200">
+      Offset
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-secondary">Reference</button>
+    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </div>
+</div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Form</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A simple Form</h4>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="emailAddress2">Email Address</label>
+          <input type="email" id="emailAddress2" class="form-control">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email address</small>
+        </div>
+        <div class="form-group">
+          <label for="formPassword2">Password</label>
+          <input type="password" id="formPassword2" class="form-control">
+        </div>
+      </form>
+      <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" id="formCheck2" class="form-check-input">
+            <label for="formCheck2" class="form-check-label">Check me out</label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Form Controls</h4>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="emailAddress3">Email Address</label>
+          <input type="email" class="form-control" id="emailAddress3">
+        </div>
+        <div class="form-group">
+          <label for="formSelect">Example select</label>
+          <select class="form-control" id="formSelect">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="formSelect2">Example multiple select</label>
+          <select class="form-control" id="formSelect2" multiple>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="formTextarea">Textarea</label>
+          <textarea class="form-control" id="formTextarea" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">File Input</h4>
+    <div class="container">
+      <div class="form-group">
+      <label for="formFileInput">Example file Input</label>
+      <input type="file" id="formFileInput" class="form-control-file">
+    </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">readonly plaintext</h4>
+    <div class="container">
+      <form>
+        <div class="form-group row">
+          <label for="plainText" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" id="plainText" class="form-control-plaintext" value="email@example.com">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="formPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+          <input type="password" id="formPassword3" class="form-control">
+          </div>
+        </div>
+      </form>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Form Inline</h4>
+      <div class="container">
+        <form class="form-inline mb-2">
+          <div class="form-group">
+            <label for="email3" class="sr-only">Email</label>
+            <input type="email" id="email3" class="form-control-plaintext" value="email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="password4" class="sr-only">Password</label>
+            <input type="password" id="password4" class="form-control" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Confirm Identity</button>
+          </div>
+        </form>
+      </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Range Inputs</h4>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="inputRange">Example Range input</label>
+          <input type="range" class="form-control-range" id="inputRange">
+        </div>
+      </form>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Default staacked</h4>
+    <form>
+      <div class="form-check">
+        <input type="checkbox" id="defaultCheckbox" class="form-check-input">
+        <label for="defaultCheckbox" class="form-check-label">Default Checkbox</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="disabledCheckbox" class="form-check-input" disabled>
+        <label for="disabledCheckbox" class="form-check-label">Disabled Checkbox</label>
+      </div>
+    </form>
+    <form>
+      <div class="form-check form-check-inline">
+        <input type="radio" name="radioCheck" id="formRadioCheck" class="form-check-input">
+        <label for="formRadioCheck" class="form-check-label">Default Radio</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="radio" name="radioCheck" id="formRadioCheck2" class="form-check-input">
+        <label for="formRadioCheck2" class="form-check-label">Another Default Radio</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="radio" name="radioCheck" id="formRadioCheck3" class="form-check-input" disabled="">
+        <label for="formRadioCheck3" class="form-check-label">Disabled Radio</label>
+      </div>
+    </form>
+    <!-- Complex layout with grid system -->
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Complex layout with grid system</h4>
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="gridEmail">Email</label>
+              <input type="text" id="gridEmail" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="gridPassword">Password</label>
+              <input type="text" id="gridPassword" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gridAddress">Address</label>
+          <input type="text" id="gridAddress" class="form-control" placeholder="123 Main St">
+        </div>
+        <div class="form-group">
+          <label for="gridAddress2">Address 2</label>
+          <input type="text" id="gridAddress2" class="form-control" placeholder="Apartment.studio or floor">
+        </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="gridCity">City</label>
+              <input type="text" id="gridCity" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="gridState">City</label>
+              <select id="gridState" class="form-control" Placeholder="Choose">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="gridZip">Zip</label>
+              <input type="text" id="gridZip" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" id="gridCheckbox" class="form-check-input">
+              <label for="gridCheckbox" class="form-check-label">Check me out</label>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+    <!-- Horizontal forms -->
+    <div class="container">
+      <form>
+        <div class="form-group row">
+          <label for="hzFormEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" id="hzFormEmail" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="hzFormPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" id="hzFormPassword" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Radios</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input type="radio" name="radios" class="form-check-input" id="formRadio1">
+              <label for="formRadio1" class="form-check-label">First Radio</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" name="radios" class="form-check-input" id="formRadio2">
+              <label for="formRadio2" class="form-check-label">Second Radio</label>
+            </div>
+            <div class="form-check disabled">
+              <input type="radio" name="radios" class="form-check-input" id="formRadio3" disabled>
+              <label for="formRadio3" class="form-check-label">Third Radio</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Checkbox</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input type="checkbox" id="formCheck3" class="form-check-input">
+              <label for="formCheck3" class="form-check-label">Example Checkbox</label>
+          </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+    <!-- Auto Sizing -->
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Auto Sizing</h4>
+    <div class="container">
+      <form>
+        <div class="form-row align-item-start">
+          <div class="col-auto">
+          <div class="form-group">
+            <label id="name1" class="sr-only">Name</label>
+            <input type="text" id="name1" class="form-control" placeholder="Jane Doe">
+          </div>
+          </div>
+          <div class="col-auto">
+          <div class="form-group">
+            <label id="username1" class="sr-only">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" id="username1" class="form-control" placeholder="Username">
+            </div>
+          </div>
+          </div>
+          <div class="col-auto">
+            <div class="form-check mt-1">
+              <input type="checkbox" id="autoCheckBox" class="form-check-input">
+              <label for="autoCheckBox" class="form-check-label">Remember Me</label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <br><br>
+    <div class="container">
+      <form>
+      <div class="form-row">
+        <div class="col-auto">
+          <div class="form-group">
+            <label for="numberSelect" class="sr-only">Preference</label>
+            <select id="numberSelect" class="custom-select">
+              <option selected>Choose...</option>
+              <option>One</option>
+              <option>Two</option>
+              <option>Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="custom-control custom-checkbox mt-1">
+           <input type="checkbox" id="customCheck" class="custom-control-input">
+            <label for="customCheck" class="custom-control-label">Remeber my Preference</label>
+          </div>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+    </div>
+      <hr> <hr>
+      <!-- Validation    -->
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Validation</h4>
+    <div class="container">
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="customValidate1">First Name</label>
+              <input type="text" id="customValidate1" class="form-control" value="Mark" required>
+              <div class="valid-feedback">
+                Looks Good!
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="customValidate2">Last Name</label>
+              <input type="text" id="customValidate2" class="form-control" value="John" required>
+              <div class="valid-feedback">
+                Looks Good!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="customValidate3">City</label>
+              <input type="text" id="customValidate3" class="form-control" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="customValidate4">State</label>
+              <select id="customValidate4" class="custom-select" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="customValidate5">Zip</label>
+              <input type="text" id="customValidate5" class="form-control" required>
+              <div class="invalid-feedback">
+                Please provide a valid Zip.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" id="customValidate6" class="form-check-input" required>
+            <label for="customValidate6" class="form-check-label">Agree to terms and condition</label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit form</button>
+      </form>
+    </div>
+    <div class="w-100"></div><br><br>
+
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="brouserDefaultInput1">Fist Name</label>
+              <input type="text" id="brouserDefaultInput1" class="form-control" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="brouserDefaultInput2">Last Name</label>
+              <input type="text" id="brouserDefaultInput2" class="form-control" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="brouserDefaultInput3">City</label>
+              <input type="text" id="brouserDefaultInput3" class="form-control" required>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+                <label for="brouserDefaultInput4">State</label>
+                <select id="brouserDefaultInput4" class="form-control" required>
+                  <option selected disabled>Choose...</option>
+                  <option>...</option>
+                </select>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="brouserDefaultInput5">Zip</label>
+              <input type="text" id="brouserDefaultInput5" class="form-control" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+           <div class="custom-control custom-checkbox">
+             <input type="checkbox" id="brouserDefaultInput6" class="custom-control-input" required>
+             <label for="brouserDefaultInput6" class="custom-control-label">Agree to terms and conditions</label>
+           </div>   
+        </div>
+        <button type="submit" class="btn btn-primary">Submit form</button>
+      </form>
+    </div>
+    <div class="w-100"></div><br><br><br>
+    <div class="container">
+      <form class="was-validated">
+        <div class="form-group">
+          <label for="formValidation1">Textarea</label>
+          <textarea class="form-control" row="3" id="formValidation1" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a massage in the textarea
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" id="formValidation2" class="custom-control-input" required>
+            <label for="formValidation2" class="custom-control-label">Check this custom checkbox</label>
+            <div class="invalid-feedback">
+              Example invalid feedback text
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-control custom-radio">
+            <div class="input-group">
+              <input type="radio" id="formValidation3" name="cus-radio" class="custom-control-input" required>
+              <label for="formValidation3" class="custom-control-label">Toggle this custom radio</label>
+            </div>
+            <div class="input-group">
+              <input type="radio" id="formValidation4" name="cus-radio" class="custom-control-input" required>
+              <label for="formValidation4" class="custom-control-label">Or Toggle this custom radio</label>
+            </div>
+            <div class="invalid-feedback">
+              Example radio invalid feedback text
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="formValidation5" class="sr-only">Select your task</label>
+            <select id="formValidation5" class="custom-select" required>
+              <option selected disabled value="">Choose..</option>
+              <option value="1">One</option>
+              <option value="2">two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="invalid-feedback">
+              Example invalid custom select feedback
+            </div>
+        </div>
+        <div class="form-group">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="formValidation6" required>
+            <label id="formValidation6" class="custom-file-label">Choose file...</label>
+          </div>
+          <div class="invalid-feedback">
+              Example invalid custom file feedback
+            </div>
+        </div>
+          <div class="form-group">
+            <div class="input-group is-invalid">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+            </div>
+            <label id="formValidation7" class="sr-only">Email address</label>
+            <input type="text" class="form-control is-invalid rounded-right" id="formValidation7" aria-describedby="validatedInputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Example invalid custom input group feedback
+            </div>
+          </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validatedInputGroupPrepend2">Option</span>
+              </div>
+              <label for="formValidation8" class="sr-only">Choose your option</label>
+              <select id="formValidation8" class="custom-select rounded-right" aria-describedby="validatedInputGroupPrepend2" required>
+                <option selected disabled value="">Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">three</option>
+              </select>
+              <div class="invalid-feedback">
+              Example invalid custom select feedback
+            </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="custom-file">
+              <input type="file" id="formValidation9" class="custom-file-input" required>
+              <label for="formValidation9" class="custom-file-label">Choose...</label>
+            </div>
+            <div class="input-group-prepend">
+              <button type="button" class="btn btn-outline-secondary rounded-right">Button</button>         
+            </div>
+          </div>
+      </form>
+    </div>
+    <div class="w-100"></div><br><br>
+    <div class="container">
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-6 mb-5">
+            <label for="fistname10">First Name</label>
+            <input type="text" id="firstname10" class="form-control" value="Mark" required>
+            <div class="valid-tooltip">
+              Looks Good!
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <label for="lastname10">Last Name</label>
+            <input type="text" id="lastname10" class="form-control" value="Otto" required>
+            <div class="valid-tooltip">
+              Looks Good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-5">
+            <label for="city10">City</label>
+            <input type="text" id="city10" class="form-control" required>
+            <div class="invalid-tooltip">
+              Invalid Input
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <label for="state10">State</label>
+            <select id="state10" class="custom-select" required>
+              <option selected disabled value="">Choose..</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="invalid-tooltip">
+              Invalid Input
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <label for="zip10">Zip</label>
+            <input type="text" id="zip10" class="form-control" required>
+            <div class="invalid-tooltip">
+                Invalid Input
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary">Submit form</button>
+      </form>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Custom switch</h4>
+    <div class="container">
+      <form>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="switches10">
+          <label for="switches10" class="custom-control-label">Toggle this switch element</label>
+        </div>
+      </form>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Input Group</h3>
+    <div class="container">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Receipin's Username" aria-label="Receipin's Username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+      </div>
+        <label for="basic-addon4">Your vanity url</label>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+        </div>
+        <input type="text" id="basic-addon4" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon3">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Receipin's Username" aria-label="Receipin's Username">
+        <div class="input-group-append">
+          <span class="input-group-text">.00</span>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon8">With textarea</span>
+        </div>
+        <textarea class="form-control" rows="3" aria-describedby="basic-addon8"></textarea>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Buttons with dropdowns</h4>
+    <div class="container">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another Action</a>
+            <a href="#" class="dropdown-item">This is Another Action</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">A Separated Link</a>
+          </div>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control">
+        <div class="input-group-append">
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another Action</a>
+            <a href="#" class="dropdown-item">This is Another Action</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">A Separated Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Segmented Buttons</h4>
+    <div class="container">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button type="button" class="btn btn-outline-secondary">Action</button>
+          <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Another Action</a>
+            <a href="#" class="dropdown-item">This is Another Action</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">A Separated Link</a>
+          </div>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4>
+    <div class="container">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Option</span>
+        </div>
+        <select type="text" class="custom-select">
+          <option selected>Choose</option>
+          <option>One</option>
+          <option>Two</option>
+          <option>Three</option>
+        </select>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">List Group</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Basic Example</h4>
+    <div class="container">
+      <ul class="list-group mb-4">
+        <li class="list-group-item active">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur.</li>
+        <li class="list-group-item disabled" aria-disabled="true">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum.</li>
+      </ul>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">List Group with a tag</h4>
+      <div class="list-group mb-4">
+        <a href="#list" class="list-group-item list-group-item-action active">Lorem ipsum dolor sit amet.</a>
+        <a href="#list" class="list-group-item list-group-item-action">Lorem ipsum dolor.</a>
+        <a href="#list" class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur.</a>
+        <a href="#list" class="list-group-item list-group-item-action disabled" tab-index="-1" aria-disabled="true">Lorem ipsum dolor sit.</a>
+        <a href="#list" class="list-group-item list-group-item-action">Lorem ipsum.</a>
+      </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">List Group with button</h4>
+      <div class="list-group mb-4">
+        <button type="button" class="list-group-item list-group-item-action active">Lorem ipsum dolor sit amet.</button>
+        <button type="button" class="list-group-item list-group-item-action">Lorem ipsum dolor.</button>
+        <button type="button" class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet, consectetur.</button>
+        <button type="button" class="list-group-item list-group-item-action" tab-index="-1" aria-disabled="true" disabled>Lorem ipsum dolor sit.</button>
+        <button type="button" class="list-group-item list-group-item-action">Lorem ipsum.</button>
+      </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">List Group flash</h4>
+    <ul class="list-group list-group-flash mb-4">
+        <li class="list-group-item active">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur.</li>
+        <li class="list-group-item disabled" aria-disabled="true">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum.</li>
+      </ul>
+      <h4 class="d-inline-block my-3 p-2 bg-warning">List Group horizontal</h4>
+    <ul class="list-group list-group-horizontal mb-4">
+        <li class="list-group-item active">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur.</li>
+        <li class="list-group-item disabled" aria-disabled="true">Lorem ipsum dolor sit.</li>
+        <li class="list-group-item">Lorem ipsum.</li>
+      </ul>
+   <h4 class="d-inline-block my-3 p-2 bg-warning">List Group with badges</h4>
+    <ul class="list-group mb-4">
+        <li class="list-group-item d-flex justify-content-lg-between align-items-center">Lorem ipsum dolor sit amet.
+          <span class="badge badge-primary badge-pill ">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-lg-between align-items-center">Lorem ipsum dolor.
+          <span class="badge badge-primary badge-pill ">8</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-lg-between align-items-center">Lorem ipsum dolor sit amet, consectetur.
+          <span class="badge badge-primary badge-pill ">12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-lg-between align-items-center disabled" aria-disabled="true">Lorem ipsum dolor sit.
+          <span class="badge badge-primary badge-pill ">20</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-lg-between align-items-center">Lorem ipsum.
+          <span class="badge badge-primary badge-pill ">9</span>
+        </li>
+      </ul>
+      <div class="list-group">
+        <a href="#list" class="list-group-item list-group-item-action active">
+          <div class="d-flex justify-content-between w-100">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolorum iure cupiditate labore, obcaecati cum laborum, consectetur deserunt animi est itaque ipsum corrupti modi, dicta!</p>
+          <small>Lorem ipsum dolor sit amet.</small>
+        </a>
+        <a href="#list" class="list-group-item list-group-item-action list-group-item-secondary">
+          <div class="d-flex justify-content-between w-100">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>5 days ago</small>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolorum iure cupiditate labore, obcaecati cum laborum, consectetur deserunt animi est itaque ipsum corrupti modi, dicta!</p>
+          <small>Lorem ipsum dolor sit amet.</small>
+        </a>
+        <a href="#list" class="list-group-item list-group-item-action">
+          <div class="d-flex justify-content-between w-100">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>7 days ago</small>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolorum iure cupiditate labore, obcaecati cum laborum, consectetur deserunt animi est itaque ipsum corrupti modi, dicta!</p>
+          <small>Lorem ipsum dolor sit amet.</small>
+        </a>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Javascript Behavior</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a href="#list-home" id="list-home-list" class="list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="home">Home</a>
+          <a href="#list-profile" id="list-profile-list" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="profile">Profile</a>
+          <a href="#list-massage" id="list-massage-list" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="massage">Massage</a>
+          <a href="#list-setting" id="list-setting-list" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="setting">Setting</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabcontent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit velit, minima in laboriosam aspernatur, harum asperiores eaque, placeat cumque cum, alias culpa eos? Minus magni, deserunt eos corporis expedita tempora quae error doloremque, commodi sequi velit rem aperiam quidem.</div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque rerum ducimus optio iusto facilis, fuga nesciunt impedit excepturi sit. Fugit, voluptatem similique libero tempora commodi officiis vero id facere ratione cum ea mollitia quisquam, deleniti repudiandae impedit accusantium quo asperiores esse dolore eius sint! Iure eaque eos debitis vitae saepe!</div>
+          <div class="tab-pane fade" id="list-massage" role="tabpanel" aria-labelledby="list-massage-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident inventore voluptatem sunt tempore quaerat modi explicabo consectetur rerum fuga cupiditate, ipsam nihil numquam molestias! Nostrum quasi tempore, magni ullam soluta.</div>
+          <div class="tab-pane fade" id="list-setting" role="tabpanel" aria-labelledby="list-setting-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis minima obcaecati dolore, reiciendis, eveniet ipsam fuga provident sapiente, quibusdam aperiam nobis ex molestiae.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Using Data attribute</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="myList" role="tablist">
+            <button data-target="#home" class="list-group-item list-group-item-action active" data-toggle="list" role="tab">Home</button>
+            <button data-target="#profile" class="list-group-item list-group-item-action" data-toggle="list" role="tab">Profile</button>
+            <button data-target="#massage" class="list-group-item list-group-item-action" data-toggle="list" role="tab">Massage</button>
+            <button data-target="#setting" class="list-group-item list-group-item-action" data-toggle="list" role="tab">Setting</button>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="home" role="tabpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel illum, fuga illo quae quis esse. In facere tempora dolore quasi repellendus deleniti quibusdam velit soluta incidunt officia, suscipit molestiae. Dolorem, cum beatae, suscipit natus earum necessitatibus impedit facere in iusto, perspiciatis id cupiditate expedita, incidunt aut doloribus distinctio. Officiis, adipisci rerum architecto unde nobis ducimus consequatur, distinctio facilis nulla recusandae magni nemo modi. Nostrum dolorem est ex amet? Dolores hic delectus voluptas, fuga, amet unde commodi quas quasi quibusdam minus doloremque! Provident vitae iusto cumque vel rerum libero, a atque in modi distinctio, architecto voluptate expedita! Voluptas dolorem, repellat a?</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cum optio voluptatem quisquam asperiores saepe ullam doloribus nobis. Aliquam nisi, dolor reiciendis nihil veritatis harum, voluptas tenetur explicabo! Ab tempora veritatis eos, reiciendis iusto animi alias rerum nesciunt, quibusdam reprehenderit debitis accusamus, labore! Totam eligendi aspernatur adipisci, quasi ullam corrupti eveniet mollitia, officiis architecto suscipit, possimus sequi. Quaerat, reprehenderit nesciunt architecto fugiat eligendi, maxime. Voluptates reprehenderit dolor incidunt accusamus ab facilis suscipit, culpa ipsa velit eveniet. Dolorum voluptatum amet laborum.</div>
+            <div class="tab-pane fade" id="massage" role="tabpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At id, necessitatibus odit minus rerum cumque ullam ut recusandae nostrum. Tempora accusantium nobis architecto eveniet dolores. Magnam, deleniti, repellat. Modi harum optio illo cumque tenetur esse doloremque quisquam nostrum quod obcaecati distinctio, quidem hic voluptatem maxime, ipsam ea perferendis nam perspiciatis. Vero omnis perspiciatis et quos officia eos laborum reiciendis, nostrum qui eius, eligendi pariatur ipsa repudiandae fuga distinctio. Enim, inventore.</div>
+            <div class="tab-pane fade" id="setting" role="tabpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nam ducimus quasi nesciunt eum aspernatur laborum iure eaque exercitationem ipsa, est, dignissimos facilis consequatur labore! Repudiandae nostrum dolorum incidunt quis consequatur, delectus officiis provident odio rem doloremque! Magni quis libero obcaecati consectetur ad nesciunt quod, inventore, ullam quia repellat nemo, optio veniam veritatis aspernatur. Quam soluta iste accusantium officiis similique adipisci debitis repellendus culpa iusto possimus magni dolorum quaerat, ratione aut et perspiciatis consequatur rem minima saepe neque voluptatum molestiae mollitia. Error facilis et ad perferendis eius enim obcaecati possimus!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Modal</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Modal Component</h4>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch Modal</button>
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-title" id="exampleModalLabel">Modal title</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, inventore.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      <!-- Static backdrop modal -->
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Static backdrop Modal</h4>
+    <div class="w-100"></div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalStatic">Launch static backdrop Modal</button>
+      <div class="modal" id="exampleModalStatic" data-backdrop="static" data-keyboard="false" aria-hidden="true" tabindex="-1" aria-labelledby="exampleModalStatic">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-title" id="exampleModalStaticLabel">Modal title</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, inventore.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+    <h4 class="d-inline-block my-3 p-2 bg-warning" >Scrollimg long content</h4>
+    <div class="w-100"></div>
+    <button type="button" class="b btn-danger" data-toggle="modal" data-target="#scrollingModal">Scrollimg Long Content</button>
+    <div class="modal" id="scrollingModal" >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">Modal Title</div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore est fuga alias eligendi, quo, consequuntur deleniti saepe hic aliquam dolor accusamus itaque autem, recusandae quidem. Alias eligendi aut in id unde sapiente delectus consequatur molestiae laudantium. Perspiciatis tenetur porro inventore. Beatae atque, molestiae voluptates facere quisquam dolor qui sunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam sed enim, molestias, id harum porro iusto assumenda distinctio qui, natus provident corrupti deserunt nemo necessitatibus doloremque numquam modi neque ipsum. Vero quam saepe officiis beatae optio nobis itaque, tempore accusantium esse, suscipit nihil, voluptatem quidem ipsa perferendis laborum, assumenda. Adipisci?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis culpa voluptatem voluptate animi vero veniam, numquam totam maxime odio quae, sint sit consequatur illo obcaecati ipsum hic quibusdam nostrum quia! Quibusdam, itaque numquam quasi magnam accusamus voluptates necessitatibus molestiae temporibus, libero, modi iste amet animi adipisci exercitationem, ipsa harum doloribus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ipsam debitis ad dignissimos beatae iste a quibusdam doloribus eaque quidem dicta sed ea possimus incidunt, illo perspiciatis nemo recusandae eius. Provident quibusdam quas, cumque quisquam! Nemo, architecto, repudiandae. Eius nostrum dolorem dolore repellendus minima aut perferendis, illo hic ipsam magnam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore expedita ipsum perferendis, aspernatur explicabo repudiandae veritatis nihil saepe ipsam excepturi optio et reprehenderit dolore similique ullam amet vero soluta sit! Natus dolores doloremque iste voluptate qui animi, cumque voluptas earum atque porro velit ipsa enim facilis, tempora blanditiis fugit dicta.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quia consequuntur impedit nam neque architecto quae ipsa illum voluptates! Placeat vitae earum harum, nobis alias aperiam cumque a reprehenderit ab voluptatem nostrum aliquam eius similique iste architecto molestias. Beatae totam porro odit! Similique nulla a, inventore facere, eius doloribus est.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quaerat iste dolorum, reiciendis cumque recusandae aliquam. Libero totam aliquid in voluptatem, deserunt porro nam maiores itaque dolor dolorum eaque, alias nesciunt magni reprehenderit quas aut reiciendis inventore consectetur rerum velit nulla ipsum fuga! Reiciendis, totam facilis ipsum perspiciatis, cupiditate officiis!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" >Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div><hr><hr>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">tooltip and popover</h4><hr><hr>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tooltipPopover">Tooltip Popbar</button>
+    <div class="modal fade" id="tooltipPopover" aria-labelledby="tooltipPopover">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">Tooltip and Popovers</div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <h5>Popobar in a modal</h5>
+            <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover Title" data-content="popover body content is set in this attribute">Button</a>triggers a popover on a click</p>
+            <h5>Tooltip in popobar</h5>
+            <p><a href="#" class="tooltip-test" title="tooltip">link1</a> and <a href="#" class="tooltip-test" title="tooltip">link1</a>have tooltips on hover</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Alert</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" role="button" id="navbarDropdwon" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Action</a>
+                <a href="#" class="dropdown-item">Another Action</a>
+                <a href="#" class="dropdown-item">Somthing else other</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Separate a link</a>
+              </div>
+            </li>
+            <li class="nav-item mr-auto">
+              <a href="#" class="nav-link disabled" aria-disabled="true" tabindex="-1">Disabled</a>
+            </li>
+          </ul>
+          <form class="my-2 my-lg-0 ml-auto">
+              <div class="form-group form-inline">
+                <input type="search" class="form-control mr-sm-2 my-2 rounded-right" placeholder="Search" aria-label="search">
+                <button type="submit" class="btn btn-outline-success">Search</button>
+              </div>
+            </form>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <a href="#" class="navbar-brand"> 
+          <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top">
+          Bootstrap
+        </a>
+      </nav>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded fixed-top">
+          <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top">
+            Bootstrap Component
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#colorScheme" aria-label="Toggle navigation" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between ml-5" id="colorScheme">
+            <div class="navbar-nav ">
+              <a href="#" class="nav-item nav-link active">Home</a>
+              <a href="#" class="nav-item nav-link">Feature</a>
+              <a href="#" class="nav-item nav-link">Pricinge</a>
+              <a href="#" class="nav-item nav-link">About</a>
+            </div>
+            <form action="#" class="form-inline">
+              <input type="search" class="form-control mr-2">              
+              <button type="button" class="btn btn-outline-info">Search</button>
+            </form>
+          </div>
+          </div>
+        </nav>
+      </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Pagination</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Pagination example</h4>
+    <div class="container">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Working with icons</h4>
+    <div class="container">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a href="#" class="page-link" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a></li>
+          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">4</a></li>
+          <li class="page-item"><a href="#" class="page-link" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Popover</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Four directions</h4>
+    <div class="container">
+      <button type="button" class="btn btn-lg btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, commodi!">Popover on top</button>
+      <button type="button" class="btn btn-lg btn-secondary my-5" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quis optio, culpa dolore!">Popover on bottom</button><br>
+      <button type="button" class="btn btn-lg btn-secondary my-5" data-container="body" data-toggle="popover" data-placement="left" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">Popover on left</button><br>
+      <button type="button" class="btn btn-lg btn-secondary float-right" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse.">Popover on right</button>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Progress</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Simple Progress</h4>
+    <div class="container">
+      <div class="progress my-3">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress my-3">
+        <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress my-3">
+        <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress my-3">
+        <div class="progress-bar w-75" role="progresbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress my-3">
+        <div class="progress-bar w-100" role="progresbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Multiple Progress</h4>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      <div class="progress-bar progress-bar-striped progress-bar-animated w-25 bg-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      <div class="progress-bar progress-bar-striped w-25 bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+    </div>
+    <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Scrollspy</h3>
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Example in navbar</h4>
+    <div class="container">
+    <div class="position-relative">
+      <nav id="scrollspy" class="navbar navbar-light bg-light">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#home2" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a href="#one" class="dropdown-item">One</a>
+              <a href="#two" class="dropdown-item">Two</a>
+              <div class="dropdown-divider"></div>
+              <a href="#three" class="dropdown-item">Three</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div  data-spy="scroll" data-target="#scrollspy" data-offset="0" style="height:400px; overflow-y: scroll;">
+        <h4 id="home2">Home</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam impedit nemo, cupiditate qui a unde architecto, esse molestias et porro exercitationem? Fugiat atque velit consequatur perferendis accusantium error aperiam quae iste quod est modi culpa necessitatibus rerum nobis, mollitia molestias adipisci corrupti quasi inventore possimus odit voluptate blanditiis et similique deserunt. Suscipit veritatis adipisci deserunt odio iste accusantium perferendis ullam nostrum architecto rem eveniet eligendi, ab facilis aperiam placeat neque ratione fugit deleniti incidunt cum delectus quibusdam expedita earum, reiciendis? Magni quo illo, eos voluptate, laborum praesentium repellendus debitis explicabo nisi in beatae mollitia quis, qui adipisci harum quae cupiditate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis similique id molestias culpa corporis quam velit officia ullam quae voluptatem, rerum, ad quos ab eius accusamus sit. Praesentium iure nulla temporibus, amet nisi repudiandae nihil esse error, necessitatibus, ipsam earum architecto sapiente, voluptatum autem dolores nam tenetur deserunt. Aliquam quaerat saepe, quae harum deleniti sint repellendus, voluptates blanditiis eaque nam, sunt, molestiae adipisci? Ut illum fuga expedita optio adipisci, dicta totam ea aperiam! Dolore deleniti saepe ea sit, quo quidem explicabo voluptate officia neque esse repudiandae sunt debitis quos culpa deserunt temporibus quia pariatur nostrum, ad laborum suscipit porro voluptatem.</p>
+        <h3 id="contact">Contact</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, velit distinctio odit dolorem molestias blanditiis, quaerat excepturi doloribus quis vero magni doloremque aliquam repellendus quibusdam veritatis tenetur corporis provident accusamus quos, laborum laudantium! Consectetur molestiae, maiores nobis ut. Exercitationem nam, commodi magni, suscipit dignissimos recusandae alias quis eveniet voluptatem reiciendis. Sed atque autem quia, animi vitae reprehenderit ad vero dignissimos magnam iste inventore sequi perferendis deleniti, ullam labore odit soluta. Saepe aperiam reprehenderit eligendi nisi iusto provident possimus beatae, magnam dolore fuga modi dignissimos inventore repellendus, ratione labore voluptate consequuntur distinctio omnis iste autem obcaecati, repudiandae iure. Et, repudiandae, eveniet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque enim, ab! Rerum eaque voluptatem ullam, natus beatae maiores consectetur obcaecati iure doloremque officia rem. Ducimus repellat possimus et quis soluta eos totam doloribus culpa sapiente expedita magni sunt, suscipit sequi unde aliquam at dolore doloremque blanditiis incidunt, optio consequatur placeat quia odit. Possimus delectus aliquid quasi necessitatibus iure, maiores nobis. Voluptatem commodi obcaecati, asperiores nam et placeat eveniet ad laudantium numquam eum consequuntur sed officiis corrupti quaerat id in porro non sapiente? Iusto quos iure nesciunt dolores sit sed doloremque sapiente molestiae et, repudiandae, quibusdam, soluta delectus. Commodi, tempora, possimus.</p>
+        <h4 id="one">One</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis esse eum mollitia reiciendis eaque magni id vitae, dolor sint temporibus ratione, placeat iste aliquam cumque, architecto dolores, impedit tempora debitis. Laudantium pariatur hic minus laboriosam possimus libero soluta optio at voluptate suscipit assumenda quisquam eveniet quis voluptatum quas voluptates, architecto delectus aut dolor quo saepe, porro modi. Dignissimos doloribus quibusdam eaque doloremque libero magni laudantium a quidem enim quaerat est illum impedit ipsum iste deserunt, dolorum assumenda mollitia qui totam harum! Voluptate sint voluptatum odit aliquid autem minus hic qui voluptas vitae, deleniti minima ea quae excepturi nihil, aspernatur nobis.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea eos illo deserunt perspiciatis, ad sequi. Ea optio temporibus dolor deserunt voluptatibus quibusdam dolore! Dignissimos aut dolorum, repellendus. Expedita et odit ipsum, commodi perspiciatis totam incidunt natus modi, esse saepe placeat sed in, maiores provident non ut necessitatibus nesciunt! Odio error omnis id deserunt alias. Veritatis sunt, voluptas laboriosam blanditiis cupiditate, quas ea temporibus delectus explicabo. In fuga fugiat dicta sunt magnam quibusdam error consequatur. Earum illo est nulla perspiciatis optio hic, odio quibusdam, incidunt vel maiores! Placeat nulla quasi veritatis, enim aliquam, quidem minima culpa consequuntur doloribus similique at.</p>
+        <h3 id="two">Two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit rerum dolor voluptatibus eaque repellat ut quos doloribus impedit dolores nihil voluptatum vero, sequi nobis, mollitia possimus repellendus. Dolorem praesentium culpa assumenda quos veritatis consequatur doloremque aperiam, voluptatum, quia eaque voluptas! Ab eius tenetur sunt fuga quam culpa vero maxime, vel a, iure debitis repellat, doloremque magnam enim pariatur voluptates eaque. Iusto libero, eligendi, itaque, non modi sint quidem veniam explicabo qui, impedit autem ab! Perspiciatis aspernatur, quod sunt, minus harum sit id temporibus mollitia nobis fuga minima asperiores. Iste impedit praesentium aliquam hic reiciendis velit asperiores molestiae laboriosam officia, sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa officia minima omnis laborum, assumenda magnam ducimus quos nihil, dolorum provident eaque, nesciunt at dignissimos, quaerat repellat dolore? Nam ducimus commodi provident esse, sapiente dolorum doloremque reiciendis perferendis sed natus numquam magni quia nostrum, facilis hic exercitationem adipisci nihil quae ea laborum? Omnis laudantium architecto est temporibus culpa maiores vero facere illum, voluptatibus numquam, repellat non minus nulla nihil ab. Vel, repellat neque cumque, architecto quibusdam aspernatur quaerat aut autem voluptates eum praesentium dignissimos expedita id perferendis voluptatibus sint ea provident accusamus distinctio magni. Iste iusto sapiente, hic illum cupiditate!</p>
+        <h4 id="three">Three</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit rerum dolor voluptatibus eaque repellat ut quos doloribus impedit dolores nihil voluptatum vero, sequi nobis, mollitia possimus repellendus. Dolorem praesentium culpa assumenda quos veritatis consequatur doloremque aperiam, voluptatum, quia eaque voluptas! Ab eius tenetur sunt fuga quam culpa vero maxime, vel a, iure debitis repellat, doloremque magnam enim pariatur voluptates eaque. Iusto libero, eligendi, itaque, non modi sint quidem veniam explicabo qui, impedit autem ab! Perspiciatis aspernatur, quod sunt, minus harum sit id temporibus mollitia nobis fuga minima asperiores. Iste impedit praesentium aliquam hic reiciendis velit asperiores molestiae laboriosam officia, sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa, porro, esse excepturi veniam natus, error consequuntur omnis mollitia quasi beatae ut quibusdam nisi, dignissimos reprehenderit facere accusamus eius ratione libero sed illum. Molestias tenetur, eius ea blanditiis, eligendi pariatur in voluptate omnis architecto ex suscipit numquam impedit sapiente quae cumque commodi id atque, nobis magni consequatur! Fuga error dicta, atque nesciunt eligendi nihil cumque aspernatur ab, quia repellendus ut ducimus quod voluptas praesentium quibusdam voluptate iste nostrum ipsum iusto rerum! Neque soluta harum, repellat sit hic doloribus ab provident in! Odio laboriosam maiores nam harum iusto dicta odit, voluptatibus.</p>
+      </div>
+    </div>
+</div> 
+    <h4 class="d-inline-block my-3 p-2 bg-warning">Example with nested nav</h4>
+    <div class="container" style="max-height:350px;">
+      <div class="row">
+        <div class="col-4">
+          <nav id="scrollspy2" class="navbar navbar-light bg-light flex-column">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <nav class="nav nav-pills flex-column">
+              <a href="#item-1" class="nav-link">Item--1</a>
+              <nav class="nav nav-pills flex-column">
+                <a href="#item-1-1" class="nav-link ml-3 my-1">Item--1-1</a>
+                <a href="#item-1-2" class="nav-link ml-3 my-1">Item--1-2</a>
+              </nav>
+              <a href="#item-2" class="nav-link">Item--2</a>
+              <a href="#item-3" class="nav-link">Item--3</a>
+              <nav class="nav nav-pills flex-column">
+                <a href="#item-3-1" class="nav-link ml-3 my-1">Item--3-1</a>
+                <a href="#item-3-2" class="nav-link ml-3 my-1">Item--3-2</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+        <div class="col-8">
+          <div data-spy="scroll" data-target="#scrollspy2" data-offset="0" style="max-height:350px; overflow-y: scroll;">
+          <h4 id="item-1">ITEM---</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consequatur nisi ducimus optio cum vel aliquam ratione nesciunt excepturi, id vero sint sapiente temporibus mollitia tempora rerum doloribus iste possimus minus, animi necessitatibus, recusandae harum. Accusamus iste, possimus, ullam alias facere voluptas! Hic voluptate tenetur reprehenderit nesciunt distinctio voluptatibus animi tempora, quidem natus accusantium voluptates dolorem quam architecto ducimus, nisi rerum sapiente porro. Minus numquam, voluptatum cumque beatae placeat. Laboriosam totam atque eos commodi eius sit consectetur, et natus, necessitatibus nobis id laudantium itaque eligendi ullam amet. Nemo, laborum quod architecto inventore ea, dolores est voluptate expedita rerum, maxime reiciendis!</p>
+          <h4 id="item-1-1">ITEM---.1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repellendus quo, obcaecati eligendi, necessitatibus nisi quam nobis quaerat in voluptatem pariatur aspernatur distinctio dignissimos nesciunt commodi unde aperiam doloremque repellat quae voluptas maiores magni tempore. Perspiciatis eveniet cupiditate, expedita eos inventore nam provident veritatis sed eius repellendus omnis aspernatur quis quidem hic error labore ea mollitia, minus fugiat, cum, incidunt magni quae ex excepturi. Porro, ratione cum, officiis saepe fugit vitae nulla recusandae sit natus dolores odit soluta! Officiis reiciendis, error magnam totam eaque neque velit amet possimus itaque, praesentium, quae odio provident nesciunt labore modi! Sit, consequatur aliquam eveniet!</p>
+          <h4 id="item-1-2">ITEM---.2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquam laboriosam pariatur vitae nihil? Quam harum provident iste dolorum ratione! Quaerat illo sequi atque enim ea voluptatibus aliquid tempore totam unde vel, quod expedita voluptatum, quasi nisi magnam mollitia, cupiditate quibusdam, reiciendis voluptates ratione ipsum culpa quos quidem. Et reprehenderit commodi eligendi illo at dolore, perferendis, quod magni consequuntur, ducimus cum nemo? Facere dolore, atque nihil explicabo eaque ea esse labore odio aliquid amet molestiae iste, ipsum itaque expedita laboriosam doloremque quia quasi in aperiam voluptatem impedit tempore et rem? Officiis totam obcaecati voluptatem ad, ipsa architecto aliquid! Amet, ratione?</p>
+          <h4 id="item-2">ITEM---</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint maxime dolor totam expedita porro nulla delectus consectetur ducimus, sunt mollitia sapiente quaerat. Dolor architecto consectetur explicabo placeat rem fuga numquam perferendis voluptatibus doloribus? Eligendi natus quisquam, veritatis, praesentium possimus explicabo eos minima libero, quas rerum perferendis sequi dolor. Tempore natus nemo deleniti molestiae nulla autem maxime voluptates consequuntur asperiores iste nihil ducimus ipsa, eveniet quo, aut unde dolor eaque provident quam architecto aliquam incidunt sint expedita ex. Facere laudantium eveniet magnam tempora sint reiciendis est ipsam nulla vero. Eligendi, ullam voluptas ipsum ipsam vel pariatur nihil, debitis laudantium nulla assumenda!</p>
+          <h4 id="item-3">ITEM---</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sint, perferendis? Voluptatem autem facere qui adipisci, quia rerum, porro voluptatum repellat laudantium blanditiis quam consequuntur vero dolorum vel quas. Impedit id nulla error blanditiis sequi, dignissimos odit voluptatum, ipsum cum sunt voluptatibus accusamus qui, soluta porro expedita quas fugit sapiente accusantium voluptatem nesciunt magnam natus. Numquam assumenda culpa nesciunt eligendi suscipit, porro laboriosam impedit! Magni dolorum, incidunt ipsum tenetur vero autem, tempore atque minima maiores ex rerum, cupiditate earum accusamus. Fuga ullam pariatur nihil saepe quibusdam deleniti rerum optio, accusamus! Autem fugiat veritatis dicta voluptatibus sunt porro ducimus non dolore.</p>
+          <h4 id="item-3-1">ITEM---.1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis cum illo sunt. Dolores numquam minus in, assumenda, qui sed cum non aut quaerat perspiciatis adipisci, illum mollitia ad perferendis blanditiis eaque quae saepe esse ratione ullam. A dicta expedita, rerum earum reprehenderit dolorum enim asperiores libero aliquam molestiae eveniet, mollitia magni dolorem minus illo. Reprehenderit laudantium id voluptatum quaerat pariatur sed nihil illum provident, nobis ducimus eligendi dolor earum reiciendis tempora expedita dolore. Blanditiis sunt necessitatibus voluptatum repudiandae dolores aliquid saepe quod, aut accusamus deleniti in libero, consequatur quos! Accusamus dolorum sunt placeat, explicabo, ullam sed magnam nobis incidunt corrupti.</p>
+          <h4 id="item-3-2">ITEM---.2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dignissimos, dolor velit, incidunt maxime voluptatem. Tempore totam veniam eum molestias est eaque explicabo nesciunt facere inventore. Sequi ab ipsam vitae molestias rerum odit voluptate minus, harum voluptatibus iste assumenda ad inventore veritatis sed laudantium repudiandae perspiciatis ullam amet eligendi cupiditate ex non. Laborum harum ipsa nam fuga explicabo officiis libero, similique sint beatae iusto accusamus vel, dolorem, sapiente cupiditate pariatur dolor sit non facere impedit magni odio accusantium aspernatur deserunt. Sint ullam, quas provident, alias atque dolores explicabo maxime commodi perferendis quis culpa. Tempora dolorum dicta natus praesentium corporis nisi!</p>
+        </div>
+        </div> 
+      </div>
+    </div>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="images/bootstrap-solid.svg" width="30" height="30" class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small class="text-muted">just now</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    See? Just like this.
+  </div>
+</div>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="images/bootstrap-solid.svg" width="30" class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small class="text-muted">2 seconds ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Heads up, toasts will stack automatically
+  </div>
+</div>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+  Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+  Tooltip on left
+</button>
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="js/myscript.js"></script>
+    <script>
+      (function() {
+        'use strict';
+        window.addEventListener('load',function() {
+          var forms = document.getElementsByClassName('needs-validation');
+          var validation = Array.prototype.filter.call(forms,function(form){
+            form.addEventListener('submit', function(event){
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            },false);
+          });
+        },false);
+      })();
+      // popover
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+      })
+      // Tooltip
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      })
+    </script>
+  </body>
+</html>
+<!-- <h3 class="text-center font-weight-bold my-3 mx-auto py-2 bg-danger w-50">Alert</h3> -->
+<!-- <h4 class="d-inline-block my-3 p-2 bg-warning">A simple alert</h4> -->
